@@ -1,0 +1,73 @@
+.activity{
+
+  margin-top: 0.5rem;
+  height: 3.4rem;
+  width: 11rem;
+  padding: 0.5rem;
+  background-color: #00C4F8;
+  border-radius: 8px;
+  
+  div {
+    display: flex;
+    gap: 2rem;
+    color: #fff;
+
+    p {
+      width: 4rem;
+      font-size:1rem;
+    }
+    span {
+      margin-left: 1.5rem;
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.projetcs {
+
+  margin-top: 0.5rem;
+  height: 3.4rem;
+  width: 11rem;
+  padding: 0.5rem;
+  background-color: #8CCD01;
+  border-radius: 8px;
+  
+  div {
+    display: flex;
+    color: #fff;
+
+    p {
+      width: 4rem;
+      font-size:1rem;
+    }
+    span {
+      margin-left: 1.5rem;
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.total {
+
+  margin-top: 0.5rem;
+  height: 3.4rem;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #FF7F00;
+  border-radius: 8px;
+  
+  div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #fff;
+
+    p {
+      width: 4rem;
+      font-size:1rem;
+    }
+    span {
+      font-size: 1.6rem;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+main {
+  display: flex;
+  padding:1rem;
+  gap: 1rem;
+}
+
+#div-content {
+  background-color:#fff;
+  display: flex;
+  align-items: center;
+  padding:1rem;
+  width: 50rem;
+  height: 6.5rem;
+  border-radius : 8px;
+  border: 1px solid #E7E8EA;
+  justify-content:space-between;
+
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  textarea {
+    border: none;
+    width: 40rem;
+    display: flex;
+    justify-content:center;
+    height: 4rem;
+    font-size: 1rem;
+    resize: none;
+    padding-top: 1.4rem;
+
+    
+  }
+  textarea::placeholder {
+    color: #060004;
+  }
+}
+#div-footer {
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  margin-top:-1.2rem;
+  background-color: #EAEBED;
+  border-radius:8px;
+  color: #73767D;
+  p {
+    margin-left: 1.5rem;
+  }
+  a {
+    text-decoration: none;
+    color: #26627E;
+  }
+}

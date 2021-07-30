@@ -1,0 +1,51 @@
+#user-card {
+  display: flex;
+  background-color: #3E8189;
+  height: 25.625rem;
+  width: 20rem;
+  border-bottom-left-radius:  9px;
+  border-bottom-right-radius: 9px;
+
+  > div {
+    margin-top: 10rem;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+    padding:1rem;
+    width: 100%;
+    
+    h1 {
+      color: #1E768E;
+    }
+    img {
+      max-height: 9.375rem;
+      border-radius:50%;
+      margin-top: -5rem;
+      border: 2px solid #023D5B;
+    }
+
+    .text-container {
+      display: flex;
+      flex-direction:column;
+    }
+  }
+
+  footer {
+    margin-top:1rem;
+    text-align:left;
+    color: #73767D;
+    > div {
+      display: flex;
+      justify-content: space-between;
+
+      > div {
+        margin-top: 0.5rem;
+        display: flex;
+        align-items: center;
+        p {
+          margin-left: 0.3rem;
+        }
+      }
+    }
+  }
+}
